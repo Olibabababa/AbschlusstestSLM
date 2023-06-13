@@ -11,7 +11,7 @@ public class DigitSumApplication{
     private static int usage = 0;
 
     @GetMapping("/api/digitsum")
-    public int getDigitSum (@RequestParam int number){
+    public static int getDigitSum(@RequestParam int number){
         int digit;
         int sum = 0;
 
